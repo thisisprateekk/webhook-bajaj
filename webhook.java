@@ -184,7 +184,7 @@ public class WebhookService {
 
     private WebhookResponse generateWebhook() {
         try {
-            WebhookRequest request = new WebhookRequest("John Doe", "REG12347", "john@example.com");
+            WebhookRequest request = new WebhookRequest("Prateek Kumawat", "22BEC0848", "prateekkumawat18@gmail.com");
             
             HttpHeaders headers = new HttpHeaders();
             headers.setContentType(MediaType.APPLICATION_JSON);
@@ -264,4 +264,5 @@ public class RestTemplateConfig {
 spring.application.name=webhook-sql-app
 server.port=8080
 logging.level.com.example=INFO
+
 logging.level.org.springframework.web.client=DEBUG
